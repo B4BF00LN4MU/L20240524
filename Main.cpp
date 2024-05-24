@@ -17,7 +17,7 @@ int main()
 	{
 		IntList.push_back(i);
 	}
-	cin >> A;
+	cin >> A
 	cout << endl;
 	IntList.insert(find(IntList.begin(), IntList.end(), B), A);
 
